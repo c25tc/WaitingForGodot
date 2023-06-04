@@ -214,15 +214,15 @@ function animate() {
 
     if (isChat) {
       camera.position.set(
-      currentCamX - pointer.x * 0.1,
-      currentCamY + pointer.y * 0.1,
-      currentCamZ + pointer.x * 0.1
+      currentCamX - pointer.x * 0.05,
+      currentCamY + pointer.y * 0.05,
+      currentCamZ + pointer.x * 0.05
     );
     } else {
       camera.position.set(
-      currentCamX + pointer.x * 0.1,
-      currentCamY + pointer.y * 0.1,
-      currentCamZ - pointer.x * 0.1
+      currentCamX + pointer.x * 0.05,
+      currentCamY + pointer.y * 0.05,
+      currentCamZ - pointer.x * 0.05
     );
     }
     
