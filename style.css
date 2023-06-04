@@ -1,0 +1,155 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+#app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.chat-back {
+  position: absolute;
+  border-radius: 15px;
+  top: 1.1rem;
+  left: 1.5rem;
+  padding: 1rem;
+  padding-inline: 2rem;
+  background-color: rgb(187, 170, 143);
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.mainContainer {
+  .charactersContainer {
+    display: flex;
+    width: 50%;
+    padding-inline: 5rem;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 8rem;
+
+    .characterName {
+      height: auto;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      background-color: antiquewhite;
+      padding: 12px;
+      padding-inline: 20px;
+      border-radius: 15px;
+      transition: all 0.1s ease-in-out;
+    }
+    .active {
+      background-color: rgb(216, 199, 174);
+    }
+    .characterName:hover {
+      cursor: pointer;
+      background-color: rgb(216, 199, 174);
+    }
+  }
+
+  .chatContainer {
+    background-color: antiquewhite;
+    position: absolute;
+    right: 5rem;
+    top: 8rem;
+    bottom: 8rem;
+    width: 30%;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    .person {
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    .chats {
+      /* scroll-behavior: smooth; */
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      overflow-y: scroll;
+      padding: 1rem;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      margin-top: 0;
+      border-radius: 15px;
+      background-color: rgb(216, 199, 174);
+      .chat {
+        background-color: antiquewhite;
+        padding: 5px;
+        padding-inline: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      .char {
+        align-self: flex-end;
+        margin-left: 3rem;
+      }
+      .user {
+        align-self: flex-start;
+        margin-right: 3rem;
+      }
+    }
+
+    .questions {
+      padding-top: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+
+      .question {
+        margin-top: 5px;
+        background-color: rgb(216, 199, 174);
+        padding: 3px;
+        padding-inline: 15px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+      .hidden {
+        display: none;
+      }
+    }
+  }
+}
+
+.tooSmall {
+  padding: 2rem;
+  position: fixed;
+  inset: 0;
+  display: none;
+  place-content: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 10;
+  background-color: antiquewhite;
+}
+
+/* @media screen and (max-width: 1400px) {
+  .tooSmall {
+    display: grid;
+  }
+  .mainContainer {
+    display: none;
+  }
+} */
