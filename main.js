@@ -212,11 +212,20 @@ function animate() {
     sceneModel.scene.children[10].scale.set(leafScale, leafScale, leafScale);
     sceneModel.scene.children[9].scale.set(leafScale, leafScale, leafScale);
 
-    camera.position.set(
+    if (isChat) {
+      camera.position.set(
+      currentCamX - pointer.x * 0.1,
+      currentCamY + pointer.y * 0.1,
+      currentCamZ + pointer.x * 0.1
+    );
+    } else {
+      camera.position.set(
       currentCamX + pointer.x * 0.1,
       currentCamY + pointer.y * 0.1,
       currentCamZ - pointer.x * 0.1
     );
+    }
+    
     camera.rotation.set(
       currentCamRotX,
       currentCamRotY,
