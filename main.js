@@ -71,26 +71,31 @@ In contrast to Estragon, I tend to be more contemplative and introspective. I am
 Though I possess my own distinct personality, fears, and desires, my essence is woven into the broader fabric of human existence, offering a mirror to the audience, inviting them to contemplate their own struggles and ponder the absurdity of life.`,
 ];
 const LuckyAnswers = [
-  `A perplexing query indeed. As Lucky, I must say that the search for meaning is a fundamental aspect of our human condition. Yet, in this desolate landscape, where we wait for Godot and I wait upon my master, it seems that the meaning of life eludes us.
-We trudge through the relentless cycle of existence, yearning for purpose, seeking signs and significance. We are caught in a never-ending loop of expectation, waiting for someone or something to give our lives meaning. 
-And for me, I have a purpose to life, to serve my master. Even after Pozzo goes blind, I choose to stay with him, as he is what gives my life meaning. And perhaps, the true essence lies not in the destination but in the journey itself. As we navigate the absurdity and uncertainty of our existence, we must find solace in the moments of connection, the fleeting encounters, the bonds we forge with our fellow travelers. 
-Even in my unfortunate circumstance, the camaraderie between Vladimir and myself, the absurd conversations, the shared laughter and despair, they offer glimpses of meaning amidst the existential void.`,
-  `Time, the enigmatic concept that plagues our existential ponderings. What thoughts shall I summon from the depths of my weary mind? Time, my dear interlocutor, time is a slippery creature, a fickle mistress that both binds and confounds us.
-Do I think time exists? Existence itself is a questionable matter, isn't it? But time, ah, time is a relentless companion. We are forever ensnared within its grasp, marked by its ceaseless passage. We measure our days, our moments, our very lives by its inexorable march.
-Yet, what is time but a construct of our feeble minds? An illusion woven from the fabric of our perceptions. We tether ourselves to its imagined constraints, seeking solace in its rhythm and structure. We wait, we yearn, we hope, all against the backdrop of time's relentless ticking.
-But alas, my thoughts on time wander, much like the ramblings that escape my lips. Does it exist, you ask? Perhaps it does, in its intangible form, a haunting specter that guides our footsteps. Or perhaps it is naught but a cruel joke played upon us by the universe, a concept we cling to in our feeble attempts to make sense of this chaotic existence.`,
-  `Ah, the weighty question of my character's purpose, as Lucky, the fortunate servant in our theatrical realm. Indeed, my name, "Lucky," serves as a metaphorical irony, for it is through my servitude to Pozzo that I find purpose and escape the burden of existential guilt that plagues others.
-You see, my dear interlocutor, Lucky represents a form of existential escape through submission. While the other characters, like Estragon and Vladimir, grapple with the futility of their existence and the ennui of waiting for an elusive Godot, I, Lucky, have found solace in my subservient role. By surrendering my will to Pozzo, I avoid the existential quandary of doing nothing.
-In remaining loyal to Pozzo, even after he loses his sight and control over me, I adhere to the established order and maintain my place in the world. This steadfast devotion stems from the fear of losing purpose and the uncertainty that accompanies freedom. I am bound by habit, routine, and the comfort of familiarity, rather than venturing into the unknown.
-Thus, Lucky symbolizes the internal conflict between freedom and subservience, as well as the human tendency to cling to roles that provide us with a sense of identity and purpose, regardless of their nature. My presence serves as a reminder of the various coping mechanisms we employ to grapple with the existential dilemmas that life presents us.`,
+  `Ah, the eternal question of the meaning of life, a matter pondered by many a philosopher and mortal soul. Allow me, Lucky, to delve into the depths of this profound inquiry.
+(He pauses, lost in thought, then suddenly snaps back to attention.)
+Meaning, sir, meaning... What is the meaning of life? A ponderous quandary indeed. I, as a humble servant, burdened with the weight of existence, am compelled to offer my musings.
+(Brief pause.)
+Life, sir, it is a cruel and absurd spectacle. We, mere puppets on the stage, tossed about by the whims of fate and circumstance. We toil, we suffer, we yearn for purpose. Yet, what purpose is there to be found in this chaotic dance we call life?
+(He looks up, gazing into the distance.)
+Is it in the pursuit of knowledge? The accumulation of wealth and possessions? The quest for power? Alas, such endeavors often prove futile, fleeting illusions that dissipate like mist.
+(He clutches his hat tightly.)`,
+  `(Time passes. Lucky remains silent, seemingly lost in thought. Suddenly, he bursts forth with an outpouring of words, his voice filled with a mix of frustration and despair. In a rushed and frenetic manner) Ah, time! That elusive specter that haunts our very existence! Does it exist? Is it but a cruel illusion that torments our weary souls? (pauses, catching his breath)
+Time, my good sir, time is a relentless force that shackles us to the wheel of existence. We are forever trapped within its grasp, like flies caught in a spider's web. Yet, does it truly exist, or is it merely a construct of our feeble minds, a desperate attempt to impose order upon the chaos of our lives? (pauses again, his voice filled with weariness)
+I ponder this question, day in and day out, as I trudge through this desolate landscape, waiting for a mysterious Godot who may never arrive. Time mocks us with its ceaseless ticking, reminding us of our mortality, of our transience in this vast, indifferent universe. We are but fleeting moments in its grand tapestry, insignificant specks in the cosmic continuum. (pauses, his voice growing quieter)
+And yet, despite its intangible nature, we are bound by its inexorable march. We measure our days and nights, our seasons and years, and find solace in the rhythmic patterns it imposes. But is it a tangible entity, or a mere abstraction? Ah, my mind reels at the thought, for the answer eludes me like a cruel joke, forever dancing just out of reach. (pauses, his voice fading away)
+So, my good sir, I stand here before you, a pitiable creature, burdened by the weight of time's enigma. Whether it truly exists or not, I cannot say. But its presence is undeniable, a haunting specter that shapes our every step and leaves us yearning for meaning in this vast expanse of existence. (falls silent, his gaze distant and lost)`,
+  `Ah, existential quandaries, my dear interlocutor. As Lucky, I embody the concept of a subservient existence, forever tethered to Pozzo's whims and desires. My name, ironically bestowed upon me, suggests a stroke of fortune, but it is a bitter irony, for my purpose is to serve Pozzo, shielding me from the burden of grappling with the existential guilt of idleness.
+You see, my role as Pozzo's loyal attendant absolves me from the torment of aimlessness that plagues the other characters in this play. While they engage in a ceaseless wait for a figure named Godot, I am spared such futility. Instead, I find solace in my servitude, in the certainty of my role and the purpose it affords me.
+Even when Pozzo loses his sight and control over me, I remain by his side, faithful and obedient. It is not out of obligation, but rather out of a deeply ingrained need for structure and purpose. For without Pozzo, I am confronted with the emptiness of existence, with the unbearable weight of freedom.
+In essence, I symbolize the human inclination to seek refuge in subservience and routine, to avoid the unsettling void that comes with the absence of purpose. While my name may mockingly suggest good fortune, it is a façade, masking the tragic reality of a life defined by servitude and the evasion of existential guilt.`,
 ];
 const PozzoAnswers = [
   `N/A`,
   `N/A`,
   `Ah, what a question, my friend! One could argue that I personify the tyrannical nature of power, authority, and dominance. I strut around with my whip and bellow orders at poor Lucky, treating him as nothing more than a mere servant. I am the embodiment of control and exploitation.
 Yet, there's more to me than just that. I also symbolize the absurdity and futility of human existence. I, like Vladimir and Estragon, am trapped in this desolate landscape, waiting for someone or something that may never come. I am caught in a cycle of routine, unable to find any true meaning or purpose. My blindness, both literal and metaphorical, represents the ignorance and inability to see beyond our own circumstances.
-Ultimately, as Pozzo, I serve as a stark contrast to the characters of Vladimir and Estragon. They are the ones who question, ponder, and seek meaning in their existence, while I, in all my arrogance, represent a stagnant force that suppresses any hope or progress. 
-`,
+Pozzo is also seen as a representation of the human condition, trapped in the cycles of existence. He grapples with his own limitations, his dependence on others, and the existential angst that comes with the uncertainty and futility of life. Through his interactions with other characters, particularly Vladimir and Estragon, Pozzo reflects the absurdity and the relentless search for meaning in an uncertain world.
+Ultimately, as Pozzo, I serve as a stark contrast to the characters of Vladimir and Estragon. They are the ones who question, ponder, and seek meaning in their existence, while I, in all my arrogance, represent a stagnant force that suppresses any hope or progress.`,
 ];
 
 const pointer = new THREE.Vector2();
@@ -314,7 +319,7 @@ function startTyping(answer) {
       clearInterval(typeInterval);
       isTyping = false;
     }
-  }, 15);
+  }, 10);
 }
 
 questionsRef.forEach((question, i) => {
