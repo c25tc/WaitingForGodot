@@ -42,12 +42,12 @@ let leafScale = 0.0;
 let isTyping = false;
 let chatIndex = 0;
 let currentChat = ["Hello, my friend. Ask me a question."];
-let currentPerson = "Estragon";
+let currentPerson = "Vladimir";
 
 const EstragonAnswers = [
   `Ah, the eternal question of the meaning of life. Well, my friend, if you're expecting a definitive answer from me, you're in for disappointment. But since you asked, I'll share my musings on the matter. You see, life seems to be a bit like this endless waiting we find ourselves in. We're stuck here, uncertain of our purpose, searching for something or someone to give us meaning.
 Godot, for instance, is that elusive figure we wait for, hoping he'll bring us purpose or salvation. But does he ever arrive? No, he keeps us waiting, just like life does. And perhaps that's the key here, my friend. The waiting itself, the struggles and the uncertainties, that's what life is about. It's in those moments, in the very act of waiting, that we have the chance to find meaning.
-But what that meaning is, I can't say. Maybe it's different for each of us. Some find it in relationships, others in art, or maybe in the simplest of pleasures. It's like Vladimir says, "We always find something, eh Didi, to give us the impression we exist." So, perhaps the meaning of life lies in the search itself, in finding those somethings that make us feel alive, even in the face of uncertainty.
+But what that meaning is, I can't say. Maybe it's different for each of us. Some find it in relationships, others in art, or maybe in the simplest of pleasures. So, perhaps the meaning of life lies in the search itself, in finding those somethings that make us feel alive, even in the face of uncertainty.
 But in the end, my friend, I'm just a man waiting here, contemplating life's mysteries. What do I know?`,
   `Ah, time, my dear friend, or should I say, my relentless foe. Existence, you ask? Well, it's a tricky matter, isn't it? Time seems to hang heavy upon our weary shoulders, forever taunting us with its unyielding march.
 But does it truly exist? That's the question. I find myself pondering this very notion day in and day out as we wait for that elusive Godot. Time, you see, has a way of playing tricks on us. It stretches and contracts, it ebbs and flows, but its essence remains elusive.
