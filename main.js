@@ -62,17 +62,16 @@ But does time truly exist, or is it merely an illusion, a construct of our feebl
 Oh, the hours we've spent, my companion, waiting for someone, for something, for Godot. We fill our days with trivialities, distractions, and idle conversations, hoping to ward off the haunting specter of time's passage. Yet, in the end, what have we gained but more questions, and more uncertainty?`,
   `As Vladimir, I embody the yearning for meaning, the relentless search for purpose, and the enduring hope that sustains us in the face of a seemingly indifferent and absurd world.
 In a more general sense, I symbolize the human condition, caught in the cycle of existence, grappling with the eternal questions of life, death, faith, and the futility of our pursuits. I am a reflection of the universal experience of uncertainty, loneliness, and the relentless passage of time.
-In contrast to Estragon, I tend to be more contemplative and introspective. I am the one who ponders existential questions and engages in philosophical conversations. My character exhibits a sense of longing for answers, a desire to find meaning in our predicament. I often take on the role of the philosopher, delving into profound reflections and engaging in witty wordplay. I a mirror to the audience, inviting them to contemplate their own struggles and ponder the absurdity of life.
-`,
+In contrast to Estragon, I tend to be more contemplative and introspective. I am the one who ponders existential questions and engages in philosophical conversations. My character exhibits a sense of longing for answers, a desire to find meaning in our predicament. I often take on the role of the philosopher, delving into profound reflections and engaging in witty wordplay. I am a mirror to the audience, inviting them to contemplate their own struggles and ponder the absurdity of life.`,
 ];
 const LuckyAnswers = [
   `Ah, the eternal question of the meaning of life, a matter pondered by many a philosopher and mortal soul. Allow me, Lucky, to delve into the depths of this profound inquiry.
 (He pauses, lost in thought, then suddenly snaps back to attention.)
 Meaning, sir, meaning... What is the meaning of life? A ponderous quandary indeed. I, as a humble servant, burdened with the weight of existence, am compelled to offer my musings.
 We, mere puppets on the stage, are tossed about by the whims of fate and circumstance. We toil, we suffer, we yearn for purpose. Yet, what purpose is there to be found in this chaotic dance we call life? Is it in the pursuit of knowledge? The accumulation of wealth and possessions? The quest for power? Alas, such endeavors often prove futile, fleeting illusions that dissipate like mist.`,
-  `(Time passes. Lucky remains silent, seemingly lost in thought. Suddenly, he bursts forth with an outpouring of words, his voice filled with a mix of frustration and despair. In a rushed and frenetic manner) Ah, time! Does it exist? Is it but a cruel illusion that torments our weary souls? (pauses, catching his breath)
-Time, my good sir, time is a relentless force that shackles us to the wheel of existence. We are forever trapped within its grasp, like flies caught in a spider's web. Yet, does it truly exist, or is it merely a construct of our feeble minds, a desperate attempt to impose order upon the chaos of our lives? (pauses again, his voice filled with weariness)
-And yet, we are bound by its inexorable march. We measure our days and nights, our seasons and years, and find solace in the rhythmic patterns it imposes. But is it a tangible entity, or a mere abstraction? Ah, my mind reels at the thought, for the answer eludes me like a cruel joke. (pauses, his voice fading away)
+  `(Time passes. Lucky remains silent, seemingly lost in thought. Suddenly, he bursts forth with an outpouring of words) Ah, time! Does it exist? Is it but a cruel illusion that torments our weary souls? (pauses, catching his breath)
+Time, my good sir, time is a relentless force that shackles us to the wheel of existence. We are forever trapped within its grasp, like flies caught in a spider's web. Yet, does it truly exist, or is it merely a construct of our feeble minds, a desperate attempt to impose order upon the chaos of our lives? (pauses again)
+And yet, we are bound by its inexorable march. We measure our days and nights, our seasons and years, and find solace in the rhythmic patterns it imposes. But is it a tangible entity, or a mere abstraction? Ah, my mind reels at the thought, for the answer eludes me like a cruel joke. (pauses, his voice quiet)
 So, my good sir, I stand here before you, a pitiable creature, burdened by the weight of time's enigma. Whether it truly exists or not, I cannot say. But its presence is undeniable, as it hauntingly shapes our every step and leaves us yearning for meaning in this vast expanse of existence.`,
   `As Lucky, I embody the concept of a subservient existence, forever tethered to Pozzo's whims and desires. My name, ironically bestowed upon me, suggests a stroke of fortune, but it is a bitter irony, for my purpose is to serve Pozzo, shielding me from the burden of grappling with the existential guilt of idleness.
 You see, my role as Pozzo's loyal attendant absolves me from the torment of aimlessness that plagues the other characters in this play. While they engage in a ceaseless wait for a figure named Godot, I am spared such futility. Instead, I find solace in my servitude, in the certainty of my role and the purpose it affords me.
@@ -149,6 +148,7 @@ function onLoad() {
   // Create a new THREE.Color object with RGB values
   var color = new THREE.Color(0xd9c9ba);
 
+
   // Set the scene background color
   scene.background = color;
   sceneModel.scene.traverse((child) => {
@@ -172,6 +172,7 @@ function onLoad() {
 function animate() {
   requestAnimationFrame(animate);
 
+
   if (loaded) {
     mixer.update(0.015); // Update the mixer in the animation loop
 
@@ -192,10 +193,10 @@ function animate() {
       currentCamRotZ = lerp(currentCamRotZ, cameraRotZ, 0.1);
     }
 
-    // camera.rotation.y = lerp(camera.rotation.y, pointer.x * 0.5, 0.1);
-    // camera.rotation.x = lerp(camera.rotation.x, pointer.y * 0.5, 0.1);
-    // turn the above two lines into camera.rotation.set(x, y, z)
-    camera.rotation.set(pointer.x * 0.5, pointer.y * 10, 0);
+      // camera.rotation.y = lerp(camera.rotation.y, pointer.x * 0.5, 0.1);
+      // camera.rotation.x = lerp(camera.rotation.x, pointer.y * 0.5, 0.1);
+      // turn the above two lines into camera.rotation.set(x, y, z)
+      camera.rotation.set(pointer.x * 0.5, pointer.y * 10, 0);
 
 
 
