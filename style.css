@@ -185,7 +185,16 @@ body {
   background-color: antiquewhite;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1300px) {
+  .mainContainer {
+    .charactersContainer {
+    padding-inline: 1rem;
+  }
+  }
+  
+}
+
+@media screen and (max-width: 1230px) {
   .tooSmall {
     display: grid;
   }
